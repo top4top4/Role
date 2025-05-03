@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>رتب الشركة الرقمية</title>
+  <style>
+    body {
+      background-color: #1c1c1c;
+      color: #f5f5f5;
+      font-family: 'Arial', sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #f5f5f5;
+    }
+
+    button {
+      display: block;
+      margin: 0 auto 20px auto;
+      padding: 10px 20px;
+      background-color: #f5f5f5;
+      color: #1c1c1c;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #ffffff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #2b2b2b;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #444;
+    }
+
+    th {
+      background-color: #3a3a3a;
+      color: #f5f5f5;
+    }
+
+    tr:nth-child(even) {
+      background-color: #242424;
+    }
+
+    @media print {
+      body {
+        background-color: white;
+        color: black;
+      }
+      button {
+        display: none;
+      }
+      table {
+        background-color: white;
+        color: black;
+        border: 1px solid #000;
+      }
+      th {
+        background-color: #eee;
+        color: black;
+        border: 1px solid #000;
+      }
+      td {
+        border: 1px solid #000;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>رتب الشركة الرقمية</h1>
+
+  <button onclick="window.print()">طباعة الجدول</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>الرتبة بالعربي</th>
+        <th>الاختصار بالإنجليزي</th>
+        <th>الوصف</th>
+        <th>الراتب الشهري (دولار)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>المدير التنفيذي</td>
+        <td>Chief Executive Officer (CEO)</td>
+        <td>أعلى سلطة، يقرر التوجه العام</td>
+        <td>300 – 500</td>
+      </tr>
+      <tr>
+        <td>مدير العمليات</td>
+        <td>Chief Operating Officer (COO)</td>
+        <td>يتابع تنفيذ الأعمال والإدارة</td>
+        <td>250 – 400</td>
+      </tr>
+      <tr>
+        <td>مدير التكنولوجيا</td>
+        <td>Chief Technology Officer (CTO)</td>
+        <td>مسؤول عن التقنيات والأنظمة</td>
+        <td>300 – 450</td>
+      </tr>
+      <tr>
+        <td>مدير المشاريع</td>
+        <td>Project Manager (PM)</td>
+        <td>يخطط وينظم سير العمل</td>
+        <td>200 – 350</td>
+      </tr>
+      <tr>
+        <td>مدير البرمجة</td>
+        <td>Development Lead (DL)</td>
+        <td>يقود فريق المبرمجين</td>
+        <td>250 – 400</td>
+      </tr>
+      <tr>
+        <td>مدير التصميم</td>
+        <td>Design Lead (DS Lead)</td>
+        <td>يشرف على التصميم وتجربة المستخدم</td>
+        <td>200 – 350</td>
+      </tr>
+      <tr>
+        <td>مدير التسويق الرقمي</td>
+        <td>Marketing Lead (ML)</td>
+        <td>مسؤول الحملات الرقمية</td>
+        <td>200 – 350</td>
+      </tr>
+      <tr>
+        <td>مبرمج أول</td>
+        <td>Senior Developer (SD)</td>
+        <td>ينفذ المهام البرمجية المعقدة</td>
+        <td>250 – 400</td>
+      </tr>
+      <tr>
+        <td>مبرمج مبتدئ</td>
+        <td>Junior Developer (JD)</td>
+        <td>يساعد في كتابة الكود</td>
+        <td>100 – 200</td>
+      </tr>
+      <tr>
+        <td>مصمم UI/UX</td>
+        <td>UI/UX Designer</td>
+        <td>يصمم الواجهات وتجربة المستخدم</td>
+        <td>150 – 250</td>
+      </tr>
+      <tr>
+        <td>كاتب محتوى</td>
+        <td>Content Creator (CC)</td>
+        <td>يكتب نصوصًا ومحتوى للموقع</td>
+        <td>100 – 200</td>
+      </tr>
+      <tr>
+        <td>مسؤول دعم فني</td>
+        <td>Technical Support (TS)</td>
+        <td>يتعامل مع المشاكل الفنية</td>
+        <td>100 – 150</td>
+      </tr>
+      <tr>
+        <td>مساعد إداري</td>
+        <td>Administrative Assistant (AA)</td>
+        <td>يدير المهام المكتبية</td>
+        <td>80 – 150</td>
+      </tr>
+      <tr>
+        <td>متدرب</td>
+        <td>Intern (INT)</td>
+        <td>تحت التدريب والمساعدة</td>
+        <td>20 – 80</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
